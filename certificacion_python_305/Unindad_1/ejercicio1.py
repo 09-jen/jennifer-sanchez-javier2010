@@ -1,0 +1,10 @@
+precio1=input("ingresa el precio del articulo 1:")
+precio2=input("ingresa el precio del articulo 2:")
+precio3=input("ingresa el precio del articulo 3:")
+precio1=float(precio1)
+precio2=float(precio2)
+precio3=float(precio3)
+nombre=input("ingresa nombre del cliente:")
+total=precio1+precio2+precio3
+print("nombre del cliente:", nombre)
+print ("total de la compra:", total)
